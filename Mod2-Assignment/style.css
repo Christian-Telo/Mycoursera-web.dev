@@ -1,0 +1,78 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+	margin: 50px;
+	padding: 0;
+	font-family: helvetica;
+	}
+
+h2 {
+	border-style:solid;
+	border-width: 2px;
+	border-color: black;
+	border-right-color: none;
+	border-top-color: none;
+	width: 150px;
+	height: auto;
+	float: right;
+	position: relative;
+	text-align: center;
+}
+p{
+	clear: right;
+	font-weight: 500px;
+}
+#one{
+	border-style: none;
+	text-align: center;
+}
+ section{
+ 	border-style: hidden;
+ 	background-color: cyan
+
+ }
+ .fud{
+ 	border: 3px solid black;
+ 	border-style: solid;
+ 	padding: 10px;
+ 	margin: 10px;
+ 	width: 400px;
+ 	float: left;
+	background-color: gray
+
+
+}
+ #two{
+ 	background-color: tan;
+ 	top: -32px;
+ 	right: -12px;
+}
+#three{
+	background-color: orange;
+	top: -32px;
+ 	right: -12px;
+ }
+
+#four{
+	background-color: yellow;
+	top: -32px;
+ 	right: -12px;
+}
+
+
+ @media(min-width: 767px) and (max-width: 992px){
+ 	#first{
+ 		width: 47%;
+ 		height: auto;
+ 	}
+ 	#second{
+ 		width: 47.5%;
+ 		height: auto;
+ 	}
+ 	#third{
+ 		width: 97%;
+ 		height: 97%;
+ 	}
+ }
